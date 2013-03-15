@@ -7,16 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Sensor.h"
+#import "Repeater.h"
 
-@class TemperatureAppDelegate, Book;
+@class S5RPTAppDelegate;
 
 @interface XMLParser : NSObject <NSXMLParserDelegate> {
 
 	NSMutableString *currentElementValue;
 	
-	TemperatureAppDelegate *appDelegate;
-	Sensor *aSensor; 
+	S5RPTAppDelegate *appDelegate;
+	Repeater *aRepeater;
 }
 
 - (XMLParser *) initXMLParser;

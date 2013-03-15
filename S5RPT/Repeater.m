@@ -8,6 +8,14 @@
 
 #import "Repeater.h"
 
-@implementation Repeater
+@implementation Repeater {
+
+
+}
+
+@synthesize ID, Name, Band, Input, Output, Rpt, Loc, Asl, Note, Owner, Sysop, Lon, Lat, Status, Tone;
+
+
 
 @end
+

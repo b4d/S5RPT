@@ -8,6 +8,32 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MapOptionsViewController : UIViewController
+
+@protocol MapOptionsViewControllerDelegate <NSObject>
+- (void)didCompleteOptionsSelection:(id)sender;
+@end
+
+
+@interface MapOptionsViewController : UIViewController {
+@private
+    __weak id <MapOptionsViewControllerDelegate> _delegate;
+    __weak UISegmentedControl *_mapTypeSegmentedControl;
+    __weak UISegmentedControl *_bandTypeSegmentedControl;
+    
+    NSInteger _selectedMapSegmentIndex;
+    NSInteger _selectedBandSegmentIndex;
+    
+    
+}
+- (IBAction)changeMapType:(id)sender;
+- (IBAction)changeBandType:(id)sender;
+
+@property (weak, nonatomic) id <MapOptionsViewControllerDelegate> delegate;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *mapTypeSegmentedControl;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *bandTypeSegmentedControl;
+
+- (void)setSelectedMapSegmentIndex:(NSInteger)index;
+- (void)setSelectedBandSegmentIndex:(NSInteger)index;
+- (IBAction)dismissOptions:(id)sender;
 
 @end

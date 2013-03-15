@@ -7,7 +7,7 @@
 //
 
 #import "XMLParser.h"
-#import "TemperatureAppDelegate.h"
+#import "S5RPTAppDelegate.h"
 
 
 @implementation XMLParser
@@ -17,7 +17,7 @@
 	
 	self = [super init];
 	
-	appDelegate = (TemperatureAppDelegate *)[[UIApplication sharedApplication] delegate];
+	appDelegate = (S5RPTAppDelegate *)[[UIApplication sharedApplication] delegate];
 	
 	return self;
 }
@@ -27,11 +27,11 @@
 	attributes:(NSDictionary *)attributeDict {
 	
 	if([elementName isEqualToString:@"SenSet"]) {
-		appDelegate.sensors = [[NSMutableArray alloc] init];
+		appDelegate.repeaters = [[NSMutableArray alloc] init];
 	}
 	else if([elementName isEqualToString:@"Entry"]) {
-		aSensor = [[Sensor alloc] init];
-		aSensor.ID = [[attributeDict objectForKey:@"ID"] integerValue];
+		aRepeater = [[Repeater alloc] init];
+		aRepeater.ID = [attributeDict objectForKey:@"ID"];
 		
 		//NSLog(@"Reading id value :%i", aSensor.ID);
 	}
@@ -41,11 +41,11 @@
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string { 
 	if(!currentElementValue) 
-		currentElementValue = [[NSMutableString alloc] initWithString:[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
-	else
-		[currentElementValue appendString:[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
+		currentElementValue = [[NSMutableString alloc] initWithString:[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] stringByReplacingOccurrencesOfString:@"\n" withString:@""]];
+	else 
+		[currentElementValue appendString:[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] stringByReplacingOccurrencesOfString:@"\n" withString:@""]];
 	NSLog(@"Processing Value: %@", currentElementValue);
-	
+
 }
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName 
@@ -55,11 +55,11 @@
 		return;
 	
 	if([elementName isEqualToString:@"Entry"]) {
-		[appDelegate.sensors addObject:aSensor];
-		aSensor = nil;
+		[appDelegate.repeaters addObject:aRepeater];
+		aRepeater = nil;
 	}
 	else 
-		[aSensor setValue:currentElementValue forKey:elementName];
+		[aRepeater setValue:currentElementValue forKey:elementName];
 
 	currentElementValue = nil;
 }

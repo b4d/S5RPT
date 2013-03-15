@@ -14,13 +14,17 @@
 @synthesize coordinate;
 @synthesize title;
 @synthesize subtitle;
+@synthesize pinColor;
+@synthesize repeater;
 
-- (id)initWithCoordinates:(CLLocationCoordinate2D)location placeName:placeName description:description {
+- (id)initWithCoordinates:(CLLocationCoordinate2D)location placeName:placeName description:description pinColor:(MKPinAnnotationColor)color repeater:rpt{
     self = [super init];
     if (self != nil) {
         coordinate = location;
         title = placeName;
         subtitle = description;
+        pinColor = color;
+        repeater = rpt;
     }
     return self;
 }
@@ -28,6 +32,8 @@
 - (void)dealloc {
 
 }
+
+
 
 
 @end
