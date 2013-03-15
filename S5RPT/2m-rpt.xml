@@ -1,0 +1,325 @@
+<val:Root xmlns:val="http://www.hw-group.com/XMLSchema/ste/values.xsd">
+<SenSet>
+<Entry>
+    <ID>S55VRK</ID>
+    <Name>Uršlja gora</Name>
+    <Input>145.075</Input>
+    <Output>145.675</Output>
+    <Rpt>RV54</Rpt>
+    <Loc>JN76ll</Loc>
+    <Asl>1700</Asl>
+    <Note>E-link ID: 493946  E-link shortcut: B14</Note>
+    <Owner>S59EHI</Owner>
+    <Sysop>S52TS</Sysop>
+    <Lon>14.96483333333333</Lon>
+    <Lat>46.48438333333333</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VRT</ID>
+    <Name>Stucinov hrib (Rimske toplice)</Name>
+    <Input>145.0125</Input>
+    <Output>145.6125</Output>
+    <Rpt>RV49</Rpt>
+    <Loc>JN76oc</Loc>
+    <Asl>600</Asl>
+    <Note>/</Note>
+    <Owner>S59GCD, S56CT, S59DOR</Owner>
+    <Sysop>S56AFJ, S56CT, S56KGZ</Sysop>
+    <Lon>15.23895</Lon>
+    <Lat>46.12326666666666</Lat>
+    <Status>1</Status>
+    <Tone>TX 88.5</Tone>
+</Entry>
+<Entry>
+    <ID>S55VKP</ID>
+    <Name>Nanos</Name>
+    <Input>145.025</Input>
+    <Output>145.625</Output>
+    <Rpt>RV50</Rpt>
+    <Loc>JN75as</Loc>
+    <Asl>1240</Asl>
+    <Note>/</Note>
+    <Owner>ZRS</Owner>
+    <Sysop>S56ZAB, S55M</Sysop>
+    <Lon>14.05333333333333</Lon>
+    <Lat>45.77118333333334</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VBG</ID>
+    <Name>Kup (Podbrdo)</Name>
+    <Input>145.050</Input>
+    <Output>145.650</Output>
+    <Rpt>RV52</Rpt>
+    <Loc>JN76af</Loc>
+    <Asl>1046</Asl>
+    <Note>/</Note>
+    <Owner>S51ST, S59DAQ</Owner>
+    <Sysop>S51ST</Sysop>
+    <Lon>13.99058333333334</Lon>
+    <Lat>46.22058333333332</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VKG</ID>
+    <Name>Kranjska Gora</Name>
+    <Input>145.075</Input>
+    <Output>145.675</Output>
+    <Rpt>RV54</Rpt>
+    <Loc>JN66vl</Loc>
+    <Asl>1040</Asl>
+    <Note>/</Note>
+    <Owner>S59DKG</Owner>
+    <Sysop>S56BLT, S56FFJ</Sysop>
+    <Lon>13.791667</Lon>
+    <Lat>46.479167</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VID</ID>
+    <Name>Vojsko</Name>
+    <Input>145.125</Input>
+    <Output>145.725</Output>
+    <Rpt>RV58</Rpt>
+    <Loc>JN66wa</Loc>
+    <Asl>1129</Asl>
+    <Note>/</Note>
+    <Owner>S59EYZ</Owner>
+    <Sysop>S51GF</Sysop>
+    <Lon>13.87548333333334</Lon>
+    <Lat>46.02863333333334</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VKR</ID>
+    <Name>Mohor</Name>
+    <Input>145.0125</Input>
+    <Output>145.6125</Output>
+    <Rpt>RV49</Rpt>
+    <Loc>JN76cf</Loc>
+    <Asl>952</Asl>
+    <Note>/</Note>
+    <Owner>S59BDE</Owner>
+    <Sysop>S52MF</Sysop>
+    <Lon>14.24038333333333</Lon>
+    <Lat>46.23615</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VNM</ID>
+    <Name>Trdinov vrh</Name>
+    <Input>145.050</Input>
+    <Output>145.650</Output>
+    <Rpt>RV52</Rpt>
+    <Loc>JN75ps</Loc>
+    <Asl>1178</Asl>
+    <Note>/</Note>
+    <Owner>ZRS</Owner>
+    <Sysop>S52B</Sysop>
+    <Lon>15.31678333333334</Lon>
+    <Lat>45.7598</Lat>
+    <Status>1</Status>
+    <Tone>TX 123.0</Tone>
+</Entry>
+<Entry>
+    <ID>S55VMB</ID>
+    <Name>Pohorje - tower</Name>
+    <Input>145.125</Input>
+    <Output>145.725</Output>
+    <Rpt>RV58</Rpt>
+    <Loc>JN76tm</Loc>
+    <Asl>1147</Asl>
+    <Note>E-link ID: 28870  E-link shortcut: B2</Note>
+    <Owner>ZRS</Owner>
+    <Sysop>S56WAN</Sysop>
+    <Lon>15.56528333333333</Lon>
+    <Lat>46.51193333333334</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VIB</ID>
+    <Name>Grmada</Name>
+    <Input>145.150</Input>
+    <Output>145.750</Output>
+    <Rpt>RV60</Rpt>
+    <Loc>JN75cm</Loc>
+    <Asl>780</Asl>
+    <Note>/</Note>
+    <Owner>S59DGO</Owner>
+    <Sysop>S52ZB</Sysop>
+    <Lon>14.19126666666667</Lon>
+    <Lat>45.50141666666666</Lat>
+    <Status>1</Status>
+    <Tone>TX 123.0</Tone>
+</Entry>
+<Entry>
+    <ID>S55VBR</ID>
+    <Name>Karlovica</Name>
+    <Input>145.150</Input>
+    <Output>145.750</Output>
+    <Rpt>RV60</Rpt>
+    <Loc>JN75bn</Loc>
+    <Asl>772</Asl>
+    <Note>To open repeater you need to send DTMF 7</Note>
+    <Owner>Z59DGO</Owner>
+    <Sysop>S57UIC</Sysop>
+    <Lon>14.12468333333333</Lon>
+    <Lat>45.58183333333335</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VIZ</ID>
+    <Name>Malija (Izola)</Name>
+    <Input>145.1625</Input>
+    <Output>145.7625</Output>
+    <Rpt>RV61</Rpt>
+    <Loc>JN65tm</Loc>
+    <Asl>277</Asl>
+    <Note>E-link ID: 393430  E-link shortcut: B12</Note>
+    <Owner>S59DTN</Owner>
+    <Sysop>S53KP</Sysop>
+    <Lon>13.6438</Lon>
+    <Lat>45.50376666666666</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VLJ</ID>
+    <Name>Krim</Name>
+    <Input>145.175</Input>
+    <Output>145.775</Output>
+    <Rpt>RV62</Rpt>
+    <Loc>JN75fw</Loc>
+    <Asl>1108</Asl>
+    <Note>/</Note>
+    <Owner>ZRS</Owner>
+    <Sysop>S56ZAB</Sysop>
+    <Lon>14.47113333333333</Lon>
+    <Lat>45.92815</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VTO</ID>
+    <Name>Kanin</Name>
+    <Input>145.1875</Input>
+    <Output>145.7875</Output>
+    <Rpt>RV63</Rpt>
+    <Loc>JN66ri</Loc>
+    <Asl>2202</Asl>
+    <Note>E-link ID: 315147  E-link shortcut: B8  CTCSS most time off</Note>
+    <Owner>S59DAP</Owner>
+    <Sysop>S51W, S54S</Sysop>
+    <Lon>13.47645</Lon>
+    <Lat>46.35913333333333</Lat>
+    <Status>1</Status>
+    <Tone>123.0</Tone>
+</Entry>
+<Entry>
+    <ID>S55VMO</ID>
+    <Name>Spodnje Kraše (Mozirje)</Name>
+    <Input>145.1875</Input>
+    <Output>145.7875</Output>
+    <Rpt>RV63</Rpt>
+    <Loc>JN76kh</Loc>
+    <Asl>460</Asl>
+    <Note>/</Note>
+    <Owner>S51DSW</Owner>
+    <Sysop>S56ZAB, S57AZG</Sysop>
+    <Lon>14.88441666666667</Lon>
+    <Lat>46.29711666666667</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VSG</ID>
+    <Name>Sabotin (NG)</Name>
+    <Input>145.075</Input>
+    <Output>145.675</Output>
+    <Rpt>RV54</Rpt>
+    <Loc>JN65tx</Loc>
+    <Asl>609</Asl>
+    <Note>/</Note>
+    <Owner>S51DSG</Owner>
+    <Sysop>S56ZAB</Sysop>
+    <Lon>13.63138333333333</Lon>
+    <Lat>45.99133333333333</Lat>
+    <Status>1</Status>
+    <Tone></Tone>
+</Entry>
+<Entry>
+    <ID>S55VJE</ID>
+    <Name>Črni vrh (Jesenice)</Name>
+    <Input>145.125</Input>
+    <Output>145.725</Output>
+    <Rpt>RV58</Rpt>
+    <Loc>JN76ck</Loc>
+    <Asl>715</Asl>
+    <Note>/</Note>
+    <Owner>S59DNA</Owner>
+    <Sysop>S52VJ</Sysop>
+    <Lon>14.0695</Lon>
+    <Lat>46.45975</Lat>
+    <Status>1</Status>
+    <Tone>/</Tone>
+</Entry>
+<Entry>
+    <ID>S55VZV</ID>
+    <Name>Žagarski vrh</Name>
+    <Input>145.0875</Input>
+    <Output>145.6875</Output>
+    <Rpt>RV55</Rpt>
+    <Loc>JN76ia</Loc>
+    <Asl>626</Asl>
+    <Note>E-link ID: 260597  E-link shortcut: B7</Note>
+    <Owner>S53DZZ</Owner>
+    <Sysop>S56ZAB</Sysop>
+    <Lon>14.6533</Lon>
+    <Lat>46.02933333333332</Lat>
+    <Status>1</Status>
+    <Tone>123.0</Tone>
+</Entry>
+<Entry>
+    <ID>S55VCE</ID>
+    <Name>Mrzlica</Name>
+    <Input>145.100</Input>
+    <Output>145.700</Output>
+    <Rpt>RV56</Rpt>
+    <Loc>JN76ne</Loc>
+    <Asl>1122</Asl>
+    <Note>E-link ID: 167520  E-link shortcut: B5</Note>
+    <Owner>S59DOR</Owner>
+    <Sysop>S56CT</Sysop>
+    <Lon>15.10741666666667</Lon>
+    <Lat>46.18736666666667</Lat>
+    <Status>1</Status>
+    <Tone>123.0</Tone>
+</Entry>
+<Entry>
+    <ID>S55VBO</ID>
+    <Name>Kobla</Name>
+    <Input>145.0375</Input>
+    <Output>145.6375</Output>
+    <Rpt>RV51</Rpt>
+    <Loc>JN66xf</Loc>
+    <Asl>1470</Asl>
+    <Note>/</Note>
+    <Owner>S53GA, S59DBO</Owner>
+    <Sysop>S53GA</Sysop>
+    <Lon>13.96108333333333</Lon>
+    <Lat>46.24083333333334</Lat>
+    <Status>1</Status>
+    <Tone>TX 123.0</Tone>
+</Entry>
+
+</SenSet>
+</val:Root>
