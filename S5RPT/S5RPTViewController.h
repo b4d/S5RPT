@@ -7,7 +7,35 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "MapOptionsViewController.h"
+#import "Repeater.h"
 
-@interface S5RPTViewController : UIViewController
+@class S5RPTAppDelegate;
+
+@interface S5RPTViewController : UIViewController<MKMapViewDelegate, MapOptionsViewControllerDelegate> {
+    MKMapView *myMapView;
+    
+    IBOutlet CLLocationManager *locationManager;
+
+    
+    S5RPTAppDelegate *appDelegate;
+    
+    NSInteger _currentMapType;
+    NSInteger _currentBandType;
+    
+    NSString *band;
+    Repeater *savedRepeaterFromPin;
+    
+}
+
+@property (nonatomic, retain) IBOutlet MKMapView *myMapView;
+
+@property (nonatomic, strong) NSMutableArray *repeaters;
+
+@property (nonatomic,strong) Repeater *savedRepeaterFromPin;
 
 @end
+
+

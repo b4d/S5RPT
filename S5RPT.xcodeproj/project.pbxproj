@@ -7,20 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B306285916BDA63700EC2BCE /* 2m-rpt.xml in Resources */ = {isa = PBXBuildFile; fileRef = B306285816BDA63700EC2BCE /* 2m-rpt.xml */; };
+		B3193CE916CE402F00966D77 /* maps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3193CE716CE402F00966D77 /* maps@2x.png */; };
+		B3193CEA16CE402F00966D77 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = B3193CE816CE402F00966D77 /* maps.png */; };
+		B33CEE4F16C3C71E003261F3 /* splashI3.png in Resources */ = {isa = PBXBuildFile; fileRef = B33CEE4C16C3C71E003261F3 /* splashI3.png */; };
+		B350184516EC83B000A64C45 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B33CEE4916C3B911003261F3 /* Default@2x.png */; };
+		B350184716EC83B300A64C45 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B350184616EC83B300A64C45 /* Default-568h@2x.png */; };
+		B361A97016C4ED5E009AE0C9 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = B361A96E16C4ED5E009AE0C9 /* icon114.png */; };
+		B361A97116C4ED5E009AE0C9 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = B361A96F16C4ED5E009AE0C9 /* icon57.png */; };
+		B361A97916C5218D009AE0C9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B33CEE5B16C3C756003261F3 /* Default.png */; };
+		B361A97C16C52293009AE0C9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B361A97B16C52293009AE0C9 /* DetailsViewController.m */; };
+		B384E44B16C2AD39009B5089 /* PageCurl.png in Resources */ = {isa = PBXBuildFile; fileRef = B384E44A16C2AD39009B5089 /* PageCurl.png */; };
+		B384E45416C2BC5F009B5089 /* MapOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B384E45316C2BC5F009B5089 /* MapOptionsViewController.m */; };
 		B3882DCF16BC73D7001E53BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882DCE16BC73D7001E53BE /* UIKit.framework */; };
 		B3882DD116BC73D7001E53BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882DD016BC73D7001E53BE /* Foundation.framework */; };
 		B3882DD316BC73D7001E53BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882DD216BC73D7001E53BE /* CoreGraphics.framework */; };
 		B3882DD916BC73D7001E53BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3882DD716BC73D7001E53BE /* InfoPlist.strings */; };
 		B3882DDB16BC73D7001E53BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3882DDA16BC73D7001E53BE /* main.m */; };
 		B3882DDF16BC73D7001E53BE /* S5RPTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3882DDE16BC73D7001E53BE /* S5RPTAppDelegate.m */; };
-		B3882DE116BC73D7001E53BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3882DE016BC73D7001E53BE /* Default.png */; };
-		B3882DE316BC73D7001E53BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3882DE216BC73D7001E53BE /* Default@2x.png */; };
-		B3882DE516BC73D7001E53BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3882DE416BC73D7001E53BE /* Default-568h@2x.png */; };
 		B3882DE816BC73D7001E53BE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3882DE616BC73D7001E53BE /* MainStoryboard.storyboard */; };
 		B3882DEB16BC73D7001E53BE /* S5RPTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3882DEA16BC73D7001E53BE /* S5RPTViewController.m */; };
+		B3882DF216BC7427001E53BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882DF116BC7427001E53BE /* MapKit.framework */; };
+		B3882DF416BC742E001E53BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882DF316BC742E001E53BE /* CoreLocation.framework */; };
+		B3882DF716BC74D6001E53BE /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = B3882DF616BC74D6001E53BE /* MapPin.m */; };
+		B3882DFA16BC777E001E53BE /* Repeater.m in Sources */ = {isa = PBXBuildFile; fileRef = B3882DF916BC777E001E53BE /* Repeater.m */; };
+		B3E78CE916BEDEB000D3D3F3 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B306285B16BDA95400EC2BCE /* XMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B306285816BDA63700EC2BCE /* 2m-rpt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2m-rpt.xml"; sourceTree = "<group>"; };
+		B306285A16BDA95400EC2BCE /* XMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		B306285B16BDA95400EC2BCE /* XMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		B3193CE716CE402F00966D77 /* maps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maps@2x.png"; sourceTree = "<group>"; };
+		B3193CE816CE402F00966D77 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		B33CEE4916C3B911003261F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		B33CEE4C16C3C71E003261F3 /* splashI3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashI3.png; sourceTree = "<group>"; };
+		B33CEE5B16C3C756003261F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		B350184616EC83B300A64C45 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		B361A96E16C4ED5E009AE0C9 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		B361A96F16C4ED5E009AE0C9 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		B361A97216C4ED66009AE0C9 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon114.png; path = ../icon114.png; sourceTree = "<group>"; };
+		B361A97416C4ED6A009AE0C9 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon57.png; path = ../icon57.png; sourceTree = "<group>"; };
+		B361A97616C52177009AE0C9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B361A97A16C52293009AE0C9 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		B361A97B16C52293009AE0C9 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		B384E44A16C2AD39009B5089 /* PageCurl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PageCurl.png; sourceTree = "<group>"; };
+		B384E45216C2BC5E009B5089 /* MapOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOptionsViewController.h; sourceTree = "<group>"; };
+		B384E45316C2BC5F009B5089 /* MapOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOptionsViewController.m; sourceTree = "<group>"; };
 		B3882DCB16BC73D7001E53BE /* S5RPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S5RPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3882DCE16BC73D7001E53BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3882DD016BC73D7001E53BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +64,15 @@
 		B3882DDC16BC73D7001E53BE /* S5RPT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "S5RPT-Prefix.pch"; sourceTree = "<group>"; };
 		B3882DDD16BC73D7001E53BE /* S5RPTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S5RPTAppDelegate.h; sourceTree = "<group>"; };
 		B3882DDE16BC73D7001E53BE /* S5RPTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S5RPTAppDelegate.m; sourceTree = "<group>"; };
-		B3882DE016BC73D7001E53BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B3882DE216BC73D7001E53BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B3882DE416BC73D7001E53BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B3882DE716BC73D7001E53BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B3882DE916BC73D7001E53BE /* S5RPTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S5RPTViewController.h; sourceTree = "<group>"; };
 		B3882DEA16BC73D7001E53BE /* S5RPTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S5RPTViewController.m; sourceTree = "<group>"; };
+		B3882DF116BC7427001E53BE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B3882DF316BC742E001E53BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B3882DF516BC74D6001E53BE /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		B3882DF616BC74D6001E53BE /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		B3882DF816BC777E001E53BE /* Repeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repeater.h; sourceTree = "<group>"; };
+		B3882DF916BC777E001E53BE /* Repeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repeater.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3882DF416BC742E001E53BE /* CoreLocation.framework in Frameworks */,
+				B3882DF216BC7427001E53BE /* MapKit.framework in Frameworks */,
 				B3882DCF16BC73D7001E53BE /* UIKit.framework in Frameworks */,
 				B3882DD116BC73D7001E53BE /* Foundation.framework in Frameworks */,
 				B3882DD316BC73D7001E53BE /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +91,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B361A97D16C5A950009AE0C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B350184616EC83B300A64C45 /* Default-568h@2x.png */,
+				B3193CE716CE402F00966D77 /* maps@2x.png */,
+				B3193CE816CE402F00966D77 /* maps.png */,
+				B361A97416C4ED6A009AE0C9 /* icon57.png */,
+				B361A97216C4ED66009AE0C9 /* icon114.png */,
+				B33CEE4916C3B911003261F3 /* Default@2x.png */,
+				B384E44A16C2AD39009B5089 /* PageCurl.png */,
+				B33CEE4C16C3C71E003261F3 /* splashI3.png */,
+				B33CEE5B16C3C756003261F3 /* Default.png */,
+				B361A96E16C4ED5E009AE0C9 /* icon114.png */,
+				B361A96F16C4ED5E009AE0C9 /* icon57.png */,
+				B361A97616C52177009AE0C9 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B361A97E16C5A978009AE0C9 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				B306285A16BDA95400EC2BCE /* XMLParser.h */,
+				B306285B16BDA95400EC2BCE /* XMLParser.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
 		B3882DC216BC73D7001E53BE = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +139,8 @@
 		B3882DCD16BC73D7001E53BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3882DF316BC742E001E53BE /* CoreLocation.framework */,
+				B3882DF116BC7427001E53BE /* MapKit.framework */,
 				B3882DCE16BC73D7001E53BE /* UIKit.framework */,
 				B3882DD016BC73D7001E53BE /* Foundation.framework */,
 				B3882DD216BC73D7001E53BE /* CoreGraphics.framework */,
@@ -88,6 +156,16 @@
 				B3882DE616BC73D7001E53BE /* MainStoryboard.storyboard */,
 				B3882DE916BC73D7001E53BE /* S5RPTViewController.h */,
 				B3882DEA16BC73D7001E53BE /* S5RPTViewController.m */,
+				B384E45216C2BC5E009B5089 /* MapOptionsViewController.h */,
+				B384E45316C2BC5F009B5089 /* MapOptionsViewController.m */,
+				B361A97A16C52293009AE0C9 /* DetailsViewController.h */,
+				B361A97B16C52293009AE0C9 /* DetailsViewController.m */,
+				B3882DF516BC74D6001E53BE /* MapPin.h */,
+				B3882DF616BC74D6001E53BE /* MapPin.m */,
+				B3882DF816BC777E001E53BE /* Repeater.h */,
+				B3882DF916BC777E001E53BE /* Repeater.m */,
+				B306285816BDA63700EC2BCE /* 2m-rpt.xml */,
+				B361A97E16C5A978009AE0C9 /* XMLParser */,
 				B3882DD516BC73D7001E53BE /* Supporting Files */,
 			);
 			path = S5RPT;
@@ -100,9 +178,7 @@
 				B3882DD716BC73D7001E53BE /* InfoPlist.strings */,
 				B3882DDA16BC73D7001E53BE /* main.m */,
 				B3882DDC16BC73D7001E53BE /* S5RPT-Prefix.pch */,
-				B3882DE016BC73D7001E53BE /* Default.png */,
-				B3882DE216BC73D7001E53BE /* Default@2x.png */,
-				B3882DE416BC73D7001E53BE /* Default-568h@2x.png */,
+				B361A97D16C5A950009AE0C9 /* Images */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,10 +236,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3882DD916BC73D7001E53BE /* InfoPlist.strings in Resources */,
-				B3882DE116BC73D7001E53BE /* Default.png in Resources */,
-				B3882DE316BC73D7001E53BE /* Default@2x.png in Resources */,
-				B3882DE516BC73D7001E53BE /* Default-568h@2x.png in Resources */,
 				B3882DE816BC73D7001E53BE /* MainStoryboard.storyboard in Resources */,
+				B306285916BDA63700EC2BCE /* 2m-rpt.xml in Resources */,
+				B384E44B16C2AD39009B5089 /* PageCurl.png in Resources */,
+				B33CEE4F16C3C71E003261F3 /* splashI3.png in Resources */,
+				B361A97016C4ED5E009AE0C9 /* icon114.png in Resources */,
+				B361A97116C4ED5E009AE0C9 /* icon57.png in Resources */,
+				B361A97916C5218D009AE0C9 /* Default.png in Resources */,
+				B3193CE916CE402F00966D77 /* maps@2x.png in Resources */,
+				B3193CEA16CE402F00966D77 /* maps.png in Resources */,
+				B350184516EC83B000A64C45 /* Default@2x.png in Resources */,
+				B350184716EC83B300A64C45 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E78CE916BEDEB000D3D3F3 /* XMLParser.m in Sources */,
 				B3882DDB16BC73D7001E53BE /* main.m in Sources */,
 				B3882DDF16BC73D7001E53BE /* S5RPTAppDelegate.m in Sources */,
 				B3882DEB16BC73D7001E53BE /* S5RPTViewController.m in Sources */,
+				B3882DF716BC74D6001E53BE /* MapPin.m in Sources */,
+				B3882DFA16BC777E001E53BE /* Repeater.m in Sources */,
+				B384E45416C2BC5F009B5089 /* MapOptionsViewController.m in Sources */,
+				B361A97C16C52293009AE0C9 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +290,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B306285416BD243700EC2BCE /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		B306285516BD243700EC2BCE /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S5RPT/S5RPT-Prefix.pch";
+				INFOPLIST_FILE = "S5RPT/S5RPT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
 		B3882DEC16BC73D7001E53BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -288,6 +412,7 @@
 			buildConfigurations = (
 				B3882DEC16BC73D7001E53BE /* Debug */,
 				B3882DED16BC73D7001E53BE /* Release */,
+				B306285416BD243700EC2BCE /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -297,8 +422,10 @@
 			buildConfigurations = (
 				B3882DEF16BC73D7001E53BE /* Debug */,
 				B3882DF016BC73D7001E53BE /* Release */,
+				B306285516BD243700EC2BCE /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

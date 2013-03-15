@@ -9,6 +9,7 @@
 #import "S5RPTAppDelegate.h"
 
 @implementation S5RPTAppDelegate
+@synthesize repeaters;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
