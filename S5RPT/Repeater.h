@@ -10,21 +10,6 @@
 #import <MapKit/MapKit.h>
 
 @interface Repeater : NSObject {
-    NSString *ID;
-    NSString *Name;
-    NSString *Band;
-    NSString *Input;
-    NSString *Output;
-    NSString *Rpt;
-    NSString *Loc;
-    NSString *Asl;
-    NSString *Note;
-    NSString *Owner;
-    NSString *Sysop;
-    NSString *Lon;
-    NSString *Lat;
-    NSString *Status;
-    NSString *Tone;
 
 }
 

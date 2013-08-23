@@ -11,7 +11,7 @@
 
 
 @interface DetailsViewController : UITableViewController {
-    Repeater *rpt;
+
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *labelId;

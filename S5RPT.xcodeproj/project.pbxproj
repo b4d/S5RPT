@@ -31,6 +31,7 @@
 		B3882DF416BC742E001E53BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882DF316BC742E001E53BE /* CoreLocation.framework */; };
 		B3882DF716BC74D6001E53BE /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = B3882DF616BC74D6001E53BE /* MapPin.m */; };
 		B3882DFA16BC777E001E53BE /* Repeater.m in Sources */ = {isa = PBXBuildFile; fileRef = B3882DF916BC777E001E53BE /* Repeater.m */; };
+		B3E2C31B16F4A500007D959C /* MKCircleViewGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2C31A16F4A500007D959C /* MKCircleViewGradient.m */; };
 		B3E78CE916BEDEB000D3D3F3 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B306285B16BDA95400EC2BCE /* XMLParser.m */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		B3882DF616BC74D6001E53BE /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		B3882DF816BC777E001E53BE /* Repeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repeater.h; sourceTree = "<group>"; };
 		B3882DF916BC777E001E53BE /* Repeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repeater.m; sourceTree = "<group>"; };
+		B3E2C31916F4A500007D959C /* MKCircleViewGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCircleViewGradient.h; sourceTree = "<group>"; };
+		B3E2C31A16F4A500007D959C /* MKCircleViewGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCircleViewGradient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				B384E45316C2BC5F009B5089 /* MapOptionsViewController.m */,
 				B361A97A16C52293009AE0C9 /* DetailsViewController.h */,
 				B361A97B16C52293009AE0C9 /* DetailsViewController.m */,
+				B3E2C31916F4A500007D959C /* MKCircleViewGradient.h */,
+				B3E2C31A16F4A500007D959C /* MKCircleViewGradient.m */,
 				B3882DF516BC74D6001E53BE /* MapPin.h */,
 				B3882DF616BC74D6001E53BE /* MapPin.m */,
 				B3882DF816BC777E001E53BE /* Repeater.h */,
@@ -265,6 +270,7 @@
 				B3882DFA16BC777E001E53BE /* Repeater.m in Sources */,
 				B384E45416C2BC5F009B5089 /* MapOptionsViewController.m in Sources */,
 				B361A97C16C52293009AE0C9 /* DetailsViewController.m in Sources */,
+				B3E2C31B16F4A500007D959C /* MKCircleViewGradient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

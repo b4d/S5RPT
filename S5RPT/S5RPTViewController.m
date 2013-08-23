@@ -73,6 +73,7 @@
     appDelegate = (S5RPTAppDelegate *)[[UIApplication sharedApplication] delegate];
     
     [myMapView removeAnnotations:myMapView.annotations];
+    [myMapView removeOverlays:self.myMapView.overlays];
     
     for (Repeater *rpt in appDelegate.repeaters) {
         //NSLog(@"%@", rpt.Name);
@@ -89,6 +90,14 @@
             
             
             [self.myMapView addAnnotation:pin];
+            
+            if ([rpt.Status isEqualToString:@"1"]) {
+                MKCircle *circle = [MKCircle circleWithCenterCoordinate:CLLocationCoordinate2DMake([rpt.Lat doubleValue],
+                                                                                                   [rpt.Lon doubleValue])
+                                                             radius:60*[rpt.Asl integerValue]];
+                [self.myMapView addOverlay:circle];
+            }
+            
         }
     }
 }
@@ -96,8 +105,17 @@
 -(MKPinAnnotationColor) chooseColorForRepeater:(Repeater *)rpt {
     if ([rpt.Status isEqualToString:@"1"])
         return MKPinAnnotationColorGreen;
-    else
-        return MKPinAnnotationColorRed;
+    return MKPinAnnotationColorRed;
+}
+
+- (MKOverlayView *)mapView:(MKMapView *)map viewForOverlay:(id <MKOverlay>)overlay
+{
+    MKCircleView *circleView = [[MKCircleViewGradient alloc] initWithOverlay:overlay];
+//    MKCircleView *circleView = [[MKCircleView alloc] initWithOverlay:overlay];
+//    circleView.strokeColor = [UIColor blackColor];
+//    circleView.lineWidth = 1;
+//    circleView.fillColor = [[UIColor redColor] colorWithAlphaComponent:0.2];
+    return circleView;
 }
 
 - (void)refreshData {

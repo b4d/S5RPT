@@ -11,13 +11,9 @@
 #import "Repeater.h"
 
 @interface MapPin : NSObject<MKAnnotation> {
-    CLLocationCoordinate2D coordinate;
-    NSString *title;
-    NSString *subtitle;
     
     BOOL status;
     
-    Repeater *repeater;
 }
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
